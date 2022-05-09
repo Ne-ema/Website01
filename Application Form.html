@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    body{
+      background-image: url("Images/img_5.png");
+      background-size: cover;
+    }
+    h1{
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      color: maroon;
+      background-color: #000344;
+
+    }
+    label{
+      font-family: "padmaa-Bold.1.1";
+      color: deepskyblue;
+    }
+    input{
+      border: #ffffff solid 0.5px;
+      padding: 10px;
+      color: #000344;
+    }
+    Form{
+      text-align: center;
+    }
+
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application</title>
+</head>
+<body style="background-color: crimson">
+<h1>Student Application Form</h1>
+<form action="">
+  <label for="fname">Student Details</label><br>
+  <input type="text"id="fname" placeholder="First Name"><br>
+  <label for="mname"></label><br>
+  <input type="text"id="mname" placeholder="Middle Name"><br>
+  <label for="lname"></label><br>
+  <input type="text"id="lname" placeholder="Last Name"><br><br>
+  <label for="Female">Female</label>
+  <input type="radio"id="Female" name="gender">
+  <label for="Male">Male</label>
+  <input type="radio"id="Male"name="gender">
+  <label for="other">Other</label>
+  <input type="radio"id="other"name="gender"><br>
+  <label for="email"></label><br>
+  <input type="email"id="email" placeholder="Email Address"><br><br>
+  <label for="DOB">Date of Birth</label><br>
+  <input type="date"id="DOB"><br><br>
+  <label for="forms">Join which form</label><br>
+  <select name="Form" id="Forms">
+    <option value="Form One">Form One</option>
+    <option value="Form Two">Form Two</option>
+    <option value="Form Three">Form Three</option>
+  </select><br><br>
+  <label for="pname">Parent Name</label><br>
+  <input type="text"id="pname"placeholder="First Name">
+  <input type="text"id="pname" placeholder="Surname">
+  <input type="email"id="pname"placeholder="Email Address"><br><br>
+  <label for="phone">Phone Number</label>
+  <input type="tel"id="phone"name="phone"placeholder="+254-7000-00000"><br><br>
+  <input  type="submit"value="Apply">
+
+
+
+
+
+</form>
+
+</body>
+</html>
